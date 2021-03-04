@@ -1,0 +1,28 @@
+{
+  "name": "assignments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakethyerra/assignments.git"
+  },
+  "author": "Saketh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakethyerra/assignments/issues"
+  },
+  "homepage": "https://github.com/sakethyerra/assignments#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21",
+    "node-url-shortener": "^1.1.11",
+    "request": "^2.88.2",
+    "xml-formatter": "^2.4.0",
+    "xml-js": "^1.6.11",
+    "xml-parser": "^1.2.1"
+  }
+}

@@ -1,0 +1,84 @@
+{
+    "declaration": {
+        "attributes": {
+            "version": "1.0",
+            "encoding": "utf-8"
+        }
+    },
+    "elements": [
+        {
+            "type": "element",
+            "name": "soapenv:Envelope",
+            "attributes": {
+                "xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+                "xmlns": "urn:enterprise.soap.sforce.com"
+            },
+            "elements": [
+                {
+                    "type": "element",
+                    "name": "soapenv:Body",
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "createResponse",
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "result",
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "id",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "003D000000OY9omIAD"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "success",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "true"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "result",
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "id",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "001D000000HTK3aIAH"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "success",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "true"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
