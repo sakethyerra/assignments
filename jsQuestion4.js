@@ -36,6 +36,6 @@ class SortArray{
     ]
     so.setSortedArray(c);
     console.log("OriginalJSONObject " + JSON.stringify(so.getSortedArray()));
-    console.log("SortedJSONObject "+ JSON.stringify(so.getSortedArray().sort(function(a, b) {
+    console.log("SortedJSONObject "+ JSON.stringify(so.getSortedArray().sort((a, b) => {
         return parseFloat(a.age) - parseFloat(b.age)})));
     
